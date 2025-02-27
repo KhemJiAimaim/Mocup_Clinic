@@ -227,7 +227,7 @@
         </section>
 
         {{-- 2 --}}
-        <section class="relative z-50 " >
+        <section class="relative z-50 ">
             <div class="absolute w-full h-full">
                 <img src="/images/bg_img/Group 113.png" alt="Banner Image" class="w-full h-full object-cover">
                 <div class="absolute top-0 left-0 w-full h-full"></div>
@@ -235,7 +235,8 @@
 
             <div
                 class="xl:py-16 py-[30px] pb-[50px] max-w-[1320px] mx-auto items-center px-4 z-50 relative flex flex-col justify-between gap-4">
-                <div class="flex flex-col justify-center items-center w-full gap-4" data-aos="zoom-in" data-aos-duration="500">
+                <div class="flex flex-col justify-center items-center w-full gap-4" data-aos="zoom-in"
+                    data-aos-duration="500">
                     <p class="text-white xl:text-3xl md:text-2xl text-xl font-[600] text-center">Providing Medical Care
                         For <br> The Sickest In Our Community.</p>
                     <p
@@ -245,12 +246,13 @@
                         interdum ultrices sagittis suspendisse. Sit accumsan a bibendum.</p>
                 </div>
 
-                <div class="swiper Swiper_Medical max-w-[1100px] mx-auto flex flex-col gap-2" data-aos="fade-up" data-aos-duration="500">
+                <div class="swiper Swiper_Medical max-w-[1100px] mx-auto flex flex-col gap-2" data-aos="fade-up"
+                    data-aos-duration="500">
                     <a href="{{ route('service.index') }}"
                         class="w-full flex flex-row justify-end items-center gap-2 group ">
                         <p
                             class="text-white relative group-hover:font-[700] cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-200 before:absolute before:bg-[#DFDFDF]  before:origin-center before:h-[2px] before:w-0 group-hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-200 after:absolute after:bg-[#DFDFDF] after:origin-center after:h-[2px] after:w-0 group-hover:after:w-[50%] after:bottom-0 after:right-[50%]">
-                            See All Services</p>
+                            See All</p>
                         <div class="w-[20px] h-auto">
                             <img src="/images/icon/next_page.png" alt="">
                         </div>
@@ -294,25 +296,27 @@
         </section>
 
         {{-- 3 --}}
-        <section class="max-w-[1320px] mx-auto px-4 xl:py-16 py-[30px] flex flex-col md:gap-8 ga-6 relative" >
+        <section class="max-w-[1320px] mx-auto px-4 xl:py-16 py-[30px] flex flex-col md:gap-8 ga-6 relative">
 
 
-            <div class="flex md:flex-row flex-col justify-between items-center h-full md:gap-20 gap-4" >
-                <p
-                    class="xl:text-4xl md:text-3xl text-xl font-[600] tracking-widest w-full md:border-r-2 max-ss:border-b-2 border-[#8A8E94]" data-aos="fade-right" data-aos-duration="500">
+            <div class="flex md:flex-row flex-col justify-between items-center h-full md:gap-20 gap-4">
+                <p class="xl:text-4xl md:text-3xl text-xl font-[600] tracking-widest w-full md:border-r-2 max-ss:border-b-2 border-[#8A8E94]"
+                    data-aos="fade-right" data-aos-duration="500">
                     Latest News & <br> Announcement
                 </p>
 
-                <p class="text-[#474747] text-left w-full font-light xl:text-lg md:text-base text-sm" data-aos="fade-left" data-aos-duration="500">Lorem
+                <p class="text-[#474747] text-left w-full font-light xl:text-lg md:text-base text-sm" data-aos="fade-left"
+                    data-aos-duration="500">Lorem
                     ipsum dolor sit amet consectetur. Diam massa risus sit in. Sollicitudin orci convallis risus sed
                     interdum ultrices sagittis suspendisse. Sit accumsan a bibendum.</p>
             </div>
 
-            <div class="swiper swiper_news max-ss:max-w-[1100px] mx-auto flex flex-col gap-2  py-2 px-1" data-aos="fade-up" data-aos-duration="500">
-                <a href="{{route('blog.index')}}" class="w-full flex flex-row justify-end items-center gap-2 group ">
+            <div class="swiper swiper_news max-ss:max-w-[1100px] mx-auto flex flex-col gap-2  py-2 px-1"
+                data-aos="fade-up" data-aos-duration="500">
+                <a href="{{ route('blog.index') }}" class="w-full flex flex-row justify-end items-center gap-2 group ">
                     <p
                         class="text-blue relative group-hover:font-[700] cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-200 before:absolute before:bg-[#DFDFDF]  before:origin-center before:h-[2px] before:w-0 group-hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-200 after:absolute after:bg-[#DFDFDF] after:origin-center after:h-[2px] after:w-0 group-hover:after:w-[50%] after:bottom-0 after:right-[50%]">
-                        See All News</p>
+                        See All</p>
                     <div class="w-[20px] h-auto">
                         <img src="/images/icon/next-blue.png" alt="">
                     </div>
@@ -367,7 +371,8 @@
             <div class="xl:py-16 py-[30px] max-w-[1320px] mx-auto px-4  relative z-50 ">
                 <div class="flex md:flex-row flex-col justify-between items-start lg:gap-x-8 gap-x-4 md:h-[600px]">
 
-                    <div class="flex flex-col justify-between w-full h-full gap-4" data-aos="fade-right" data-aos-duration="500">
+                    <div class="flex flex-col justify-between w-full h-full gap-4" data-aos="fade-right"
+                        data-aos-duration="500">
                         <div class="flex flex-col gap-4">
                             <p class="xl:text-3xl md:text-2xl text-xl font-[600] text-white">Find Your Nearest Lab <br>
                                 And Schedule An Appointment</p>
@@ -375,7 +380,7 @@
                                 Important To Us</p>
                         </div>
 
-                        <div class="flex flex-col gap-4">
+                        <div class="flex flex-col gap-4 ">
                             <div class="grid grid-cols-2 lg:gap-4 gap-2">
                                 <div class="flex flex-col gap-2">
                                     <p class="ss:tex-lg text-sm text-white font-[600] capitalize">Name (required)</p>
@@ -433,13 +438,16 @@
                             </div>
                         </div>
 
-                        <div
-                            class="bg-[#21CDAD] cursor-pointer transition-all duration-200 ease-in-out w-full py-2 rounded-md capitalize text-white text-center ss:tex-lg text-sm hover:bg-blue font-[600] shadow-md">
-                            contact us
+                        <div class="flex justify-center items-center">
+                            <div
+                                class="bg-[#21CDAD] cursor-pointer transition-all duration-200 ease-in-out w-full max-w-[50%] py-2 rounded-md capitalize text-white text-center xl:text-xl md:text-lg text-base hover:bg-blue font-[600] shadow-md">
+                                contact us
+                            </div>
                         </div>
                     </div>
 
-                    <div class="lg:w-[65%] md:w-auto max-ss:hidden flex justify-end items-center w-full h-full" data-aos="fade-left" data-aos-duration="500">
+                    <div class="lg:w-[65%] md:w-auto max-ss:hidden flex justify-end items-center w-full h-full"
+                        data-aos="fade-left" data-aos-duration="500">
                         <div class="max-w-[536px] xl:h-auto rounded-md shadow-md">
                             <img src="/images/img/55.png" alt="" class="w-full h-full rounded-md">
                         </div>
@@ -452,17 +460,19 @@
 
         {{-- 5 --}}
         <section class="max-w-[1320px] mx-auto px-4 lg:pt-16 pt-[30px] flex flex-col md:gap-8 ga-6 relative">
-            <div class="flex flex-col justify-center items-center h-full gap-4" data-aos="zoom-in" data-aos-duration="500">
+            <div class="flex flex-col justify-center items-center h-full gap-4" data-aos="zoom-in"
+                data-aos-duration="500">
                 <p class="md:text-3xl text-xl font-[700] w-full text-center "> Meet Our Dedicated</p>
                 <p class="md:text-3xl text-xl font-[700] w-full text-center text-blue"> Doctor’s Team</p>
             </div>
 
 
-            <div class="swiper swiper_Doctor max-ss:max-w-[1100px] mx-auto flex flex-col gap-2  py-2 px-1 pb-12" data-aos="fade-up" data-aos-duration="500">
+            <div class="swiper swiper_Doctor max-ss:max-w-[1100px] mx-auto flex flex-col gap-2  py-2 px-1 pb-12"
+                data-aos="fade-up" data-aos-duration="500">
                 <a href="{{ route('doctor.index') }}" class="w-full flex flex-row justify-end items-center gap-2 group">
                     <p
                         class="text-blue relative group-hover:font-[700] cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-200 before:absolute before:bg-[#DFDFDF]  before:origin-center before:h-[2px] before:w-0 group-hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-200 after:absolute after:bg-[#DFDFDF] after:origin-center after:h-[2px] after:w-0 group-hover:after:w-[50%] after:bottom-0 after:right-[50%]">
-                        See All Doctors</p>
+                        See All</p>
                     <div class="w-[20px] h-auto">
                         <img src="/images/icon/next-blue.png" alt="">
                     </div>

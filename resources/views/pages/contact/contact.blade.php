@@ -13,7 +13,8 @@
         <div
             class="absolute inset-0 z-50 flex flex-col justify-center items-center gap-y-4 max-sm:gap-y-1 max-w-[1320px] m-auto">
             <div class="flex flex-col sm:gap-y-8">
-                <p class="xl:text-[40px] text-3xl uppercase text-white font-[700] ss:tracking-[8px] tracking-widest animate__animated animate__zoomIn" style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">
+                <p class="xl:text-[40px] text-3xl uppercase text-white font-[700] ss:tracking-[8px] tracking-widest animate__animated animate__zoomIn"
+                    style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">
                     contact
                 </p>
             </div>
@@ -104,9 +105,11 @@
                             </div>
                         </div>
 
-                        <div
-                            class="bg-[#21CDAD] cursor-pointer transition-all duration-200 ease-in-out w-full py-2 rounded-md capitalize text-white text-center ss:tex-lg text-sm hover:bg-blue font-[600] shadow-md">
-                            contact us
+                        <div class="flex justify-center items-center">
+                            <div
+                                class="bg-[#21CDAD] cursor-pointer transition-all duration-200 ease-in-out w-full max-w-[50%] py-2 rounded-md capitalize text-white text-center xl:text-xl md:text-lg text-base hover:bg-blue font-[600] shadow-md">
+                                contact us
+                            </div>
                         </div>
                     </div>
 
@@ -129,7 +132,8 @@
                     <img src="/images/icon/phone.png" alt="" class="w-full h-full">
                 </div>
                 <p class="text-white lg:text-2xl md:text-xl font-[700]">Phone</p>
-                <p class="text-white lg:text-lg text-sm font-light md:line-clamp-3 line-clamp-2 md:text-left text-center">Lorem ipsum dolor sit amet consectetur. Leo risus diam id faucibus facilisi duis.</p>
+                <p class="text-white lg:text-lg text-sm font-light md:line-clamp-3 line-clamp-2 md:text-left text-center">
+                    Lorem ipsum dolor sit amet consectetur. Leo risus diam id faucibus facilisi duis.</p>
                 <p class="text-[#25A7C6] lg:text-xl md:text-base text-[12px]">555-555-5555</p>
             </div>
 
@@ -138,7 +142,8 @@
                     <img src="/images/icon/outline-mail.png" alt="" class="w-full h-full">
                 </div>
                 <p class="text-white lg:text-2xl md:text-xl font-[700]">Email</p>
-                <p class="text-white lg:text-lg text-sm  font-light md:line-clamp-3 line-clamp-2 md:text-left text-center ">Lorem ipsum dolor sit amet consectetur. Leo risus diam id faucibus facilisi duis.</p>
+                <p class="text-white lg:text-lg text-sm  font-light md:line-clamp-3 line-clamp-2 md:text-left text-center ">
+                    Lorem ipsum dolor sit amet consectetur. Leo risus diam id faucibus facilisi duis.</p>
                 <p class="text-[#25A7C6] lg:text-xl md:text-base text-[12px]">Clinic@gmail.co.th</p>
             </div>
 
@@ -147,7 +152,8 @@
                     <img src="/images/icon/Group 234.png" alt="" class="w-full h-full">
                 </div>
                 <p class="text-white lg:text-2xl md:text-xl font-[700]">Location</p>
-                <p class="text-white lg:text-lg text-sm  font-light md:line-clamp-3 line-clamp-2 md:text-left text-center">Lorem ipsum dolor sit amet consectetur. Leo risus diam id faucibus facilisi duis.</p>
+                <p class="text-white lg:text-lg text-sm  font-light md:line-clamp-3 line-clamp-2 md:text-left text-center">
+                    Lorem ipsum dolor sit amet consectetur. Leo risus diam id faucibus facilisi duis.</p>
                 <p class="text-[#25A7C6] lg:text-xl md:text-base text-[11px] ">View On Google Map</p>
             </div>
         </div>
@@ -155,10 +161,8 @@
 
     <div class="w-full lg:h-[450px] h-[250px]">
         {{-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d956.441469868089!2d102.83429837649591!3d16.487388317589055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31228ae99b598b43%3A0x56b4538d2ace7037!2z4Lij4Lix4Lia4LiX4Liz4LmA4Lin4LmH4Lia4LmE4LiL4LiV4LmMIOC4guC4reC4meC5geC4geC5iOC4mSBXWU5OU09GVCBTT0xVVElPTiBDTy4sTFRELg!5e0!3m2!1sth!2sth!4v1740453007684!5m2!1sth!2sth" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> --}}
-    <img src="/images/img/map.png" alt="" class="w-full h-full object-cover">
+        <img src="/images/img/map.png" alt="" class="w-full h-full object-cover">
     </div>
-
-
 @endsection
 
 @section('script')

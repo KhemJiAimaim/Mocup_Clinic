@@ -27,8 +27,8 @@
     </section>
 
 
-    <div class="xl:py-16 py-[30px]">
-        <section class="max-w-[1320px] mx-auto px-4 flex flex-col md:gap-16 gap-12 "  data-aos="fade-up" data-aos-duration="500">
+    <div class="xl:py-16 py-[30px] px-4">
+        <section class="max-w-[1320px] mx-auto  flex flex-col md:gap-16 gap-12 "  data-aos="fade-up" data-aos-duration="500">
             <div class="flex md:flex-row flex-col shadow-[rgba(50,_50,_105,_0.15)_0px_2px_5px_0px,_rgba(0,_0,_0,_0.05)_0px_1px_1px_0px] rounded-md bg-white ">
                 <div class="w-full h-auto">
                     <img src="/images/img/Mask group (1).png" alt=""
@@ -83,8 +83,11 @@
             </div>
         </section>
 
+
+        <div class="max-w-[60%] w-full mx-auto  border-t-2 rounded-full lg:my-16 my-[30px]" data-aos="zoom-in" data-aos-duration="500"></div>
+
         {{-- 5 --}}
-        <section class="max-w-[1320px] mx-auto px-4 lg:pt-16 pt-[30px] flex flex-col md:gap-8 ga-6 relative">
+        <section class="max-w-[1320px] mx-auto flex flex-col md:gap-8 ga-6 relative">
             <div class="flex flex-col justify-center items-center h-full gap-4" data-aos="zoom-in" data-aos-duration="500">
                 <p class="md:text-3xl text-xl font-[700] w-full text-center "> Meet Our Dedicated</p>
                 <p class="md:text-3xl text-xl font-[700] w-full text-center text-blue"> Doctor’s Team</p>
@@ -147,7 +150,7 @@
                 <a href="{{ route('doctor.index') }}" class="w-full flex flex-row justify-end items-center gap-2 group">
                     <p
                         class="text-blue relative group-hover:font-[700] cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-200 before:absolute before:bg-[#DFDFDF]  before:origin-center before:h-[2px] before:w-0 group-hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-200 after:absolute after:bg-[#DFDFDF] after:origin-center after:h-[2px] after:w-0 group-hover:after:w-[50%] after:bottom-0 after:right-[50%]">
-                        See All Doctors</p>
+                        See All</p>
                     <div class="w-[20px] h-auto">
                         <img src="/images/icon/next-blue.png" alt="">
                     </div>
