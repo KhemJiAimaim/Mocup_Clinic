@@ -160,7 +160,7 @@
             <div class="border-t-4 border-blue pt-8 flex flex-col justify-center gap-4">
                 <p class="text-blue xl:text-3xl md:text-2xl text-xl text-center font-[700]">Treatment Price List</p>
 
-                <div class="grid grid-cols-2 gap-4 gap-y-2">
+                <div class="grid lg:grid-cols-2 gap-4 gap-y-2">
                     @foreach ($title as $item)
                         <div class="flex flex-row gap-4 w-full justify-start items-end">
                             <p class="text-[#8A8E94] xl:text-lg md:text-base text-sm font-light">
